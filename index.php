@@ -7,18 +7,22 @@
         <div class="item active">
             <img src="images/slider/1.jpg" alt="...">
             <div class="carousel-caption">
-                <a href="rejse.php"><h3>Klik Her for at begynde din bestillingsrejse!    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                <a href="rejse.php"><h3>Klik her for at begynde din bestillingsrejse!    <i class="fa fa-arrow-right" aria-hidden="true"></i>
 </h3></a>
             </div>
         </div>
         <div class="item">
             <img src="images/slider/%C2%A82.jpg" alt="...">
             <div class="carousel-caption">
+                        <a href="rejse.php"><h3>Klik her for at begynde din bestillingsrejse!    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+</h3></a>
             </div>
         </div>
         <div class="item">
-            <img src="images/slider/" alt="...">
+            <img src="images/slider/3.jpg" alt="...">
             <div class="carousel-caption">
+                        <a href="rejse.php"><h3>Klik her for at begynde din bestillingsrejse!    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+</h3></a>
             </div>
         </div>
     </div>
@@ -35,7 +39,7 @@
 <!-- Karrusel script. Ændr interval at øge eller mindske tiden mellem slide skift -->
 <script>
     $('.carousel').carousel({
-        interval: 323000
+        interval: 3000
     })
 
 </script>
