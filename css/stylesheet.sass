@@ -14,7 +14,7 @@
         body {
             font: 400 15px/1.8 Lato, sans-serif;
             color: black;
-            text-align: center;
+            
             Height: 100%;        
             
         }
@@ -22,9 +22,10 @@
         h3,
         h4 {
             margin: 10px 0 30px 0;
-            text-align: center;
+            text-align: left;
             font-size: 20px;
             color: #111;
+            font-weight: bold;
         }
         
         .container {
@@ -62,7 +63,7 @@
         }
         
         .btn {
-            padding: 10px 20px;
+            border: 0;
             background-color: #9c0a0d;
             color: #f1f1f1;
             border-radius: 0;
@@ -72,7 +73,6 @@
         
         .btn:hover,
         .btn:focus {
-            border: 1px solid #333;
             background-color: #fff;
             color: #000;
         }
@@ -122,18 +122,23 @@
         
         footer {
             position: fixed;
+            z-index: 99;
             right: 0;
             bottom: 0;
-            left: 0;
+                left: 0;
             padding: 1rem;
             background-color: #9c0a0d;
             color: white;
             height: 50px;
+            text-align: center;
+               border-top: 1px solid black
             }
    
         
         .form-control {
-            border-radius: 0;
+            border-radius: 20px;
+            width: 330px;
+            margin-left:  29px;
         }
         
         textarea {
@@ -444,3 +449,25 @@
         color: white;
         font-size: 15px;
         }
+    
+        .thumbnail .caption {
+        padding-top: 9px;
+        width: 280px;
+        background-color: black;
+        }
+
+        .faq {
+        margin-top: 125px;
+        text-align: center;
+        height: 1800px;
+        }
+        
+        .faq>P {
+        text-align: left;
+        }
+        .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 900px;
+}

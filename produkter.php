@@ -19,16 +19,12 @@ catch(PDOException $e)
     echo "Connection failed: " . $e->getMessage();
     }
  
- 
 $stmt = $conn->prepare("SELECT * FROM categories");
 $stmt->execute();
 //var_dump($stmt);
 $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
 //var_dump($results);
 ?>
-
-
-
 
 <!-- Kategorier -->
 <div class="container" id="produkter">
@@ -39,18 +35,15 @@ $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
         
             <div class="item  col-xs-8 col-lg-4">
                 <div class="thumbnail">
-                    <img class="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
+                    <img class="group list-group-image" src="images/kategorier/<?php echo $result["img"]; ?>">
                     <div class="caption">
-                        <button style="text-align:center;" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"><?php echo $result["name"]; ?></button>
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"><?php echo $result["name"]; ?></button>
                             
                         
                     </div>
                 </div>
             </div>    
        
-
-
-    
 
 <!-- Modal -->
 <div id="myModal" class="modal fade" role="dialog">
