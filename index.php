@@ -7,6 +7,8 @@
         <div class="item active">
             <img src="images/slider/1.jpg" alt="...">
             <div class="carousel-caption">
+                <a href="rejse.php"><h3>Klik Her for at begynde din bestillingsrejse!    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+</h3></a>
             </div>
         </div>
         <div class="item">
@@ -15,7 +17,7 @@
             </div>
         </div>
         <div class="item">
-            <img src="images/slider/3.jpg" alt="...">
+            <img src="images/slider/" alt="...">
             <div class="carousel-caption">
             </div>
         </div>
@@ -33,7 +35,7 @@
 <!-- Karrusel script. Ændr interval at øge eller mindske tiden mellem slide skift -->
 <script>
     $('.carousel').carousel({
-        interval: 3000
+        interval: 323000
     })
 
 </script>

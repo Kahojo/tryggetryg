@@ -24,8 +24,9 @@
             margin: 10px 0 30px 0;
             text-align: left;
             font-size: 20px;
-            color: #111;
-            font-weight: bold;
+            color: white;
+            
+    font-family: Lato, sans-serif;
         }
         
         .container {
@@ -466,8 +467,34 @@
         text-align: left;
         }
         .carousel-inner {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    height: 900px;
-}
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        height: 900px;
+        }
+    
+        .carousel-caption {
+        position: absolute;
+        bottom: 20px;
+        z-index: 10;
+        color: white;
+        top: 0;
+        margin-top: 24%;
+        right: 20%;
+        left: 61%;
+        width: 264px;
+        height: 145px;
+        background-color: #9c0a0d;
+        border-radius: 5px;
+        opacity: 0.9;
+        }     
+    
+        .carousel-caption>a {
+        text-decoration: none;
+        }
+    
+        .carousel-caption>a>h3 {
+        font-family: Lato, sans-serif;
+        text-align: center;
+        font-size: 26px!important;
+        }

@@ -7654,16 +7654,24 @@ button.close {
 
 .carousel-caption {
     position: absolute;
-    right: 15%;
     bottom: 20px;
-    left: 15%;
     z-index: 10;
     padding-top: 20px;
     padding-bottom: 20px;
     color: #fff;
     text-align: center;
     text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    padding-bottom: 30px;
+    position: absolute;
+    top: 0;
+    margin-top: 125px;
+    right: 20%;
+    left: 20%;
+    padding-bottom: 30px;
+    width: 227px;
+    padding: 14px;
 }
+
 
 .carousel-caption .btn {
     text-shadow: none;
