@@ -1,5 +1,5 @@
 <?php include 'includes/header.php' ?>
-<section class="container-fluid ">
+<section class="container-fluid">
 <section class="col-sm-4"></section>
     <section class="col-sm-4 faq"><h1>Handelsbetingelser</h1>
         <br>

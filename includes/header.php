@@ -63,7 +63,7 @@
                     <li><a href="about.php">OM OS</a></li>
                     <li><a href="handelsbetingelser.php">GENERELLE VILKÅR</a></li>
                     <li><a href="kontakt.php">KONTAKT</a></li>
-                    <li class="soegefelt"><input type="text" class="form-control" placeholder="Søg"></li>
+                    <li><input type="text" class="soegefelt" placeholder="       Søg"></li>
                     <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
                 </ul>
             </div>
