@@ -5,6 +5,4 @@
     <i class="fa fa-facebook-official fa-5" aria-hidden="true"></i></a>
     
 </footer>
-</body>
 
-</html>

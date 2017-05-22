@@ -1,0 +1,67 @@
+.container{
+    height: 600px;
+    width: 500px;
+    padding: 0px;
+    border: 2x dotted yellow;
+
+
+}
+
+.baggrund{
+    z-index: -1;
+    position: absolute;
+    box-shadow: 5px 5px 5px #888888; 
+    
+}
+
+
+.popcorn figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    height: 200px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 220px;
+    display: inline-block;
+
+}
+.popcorn figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.slush figure img{
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    height: 200px;
+        float: right;
+   
+    margin-top: 220px;
+    display: inline-block;
+
+}
+
+.slush figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+.softice figure img{
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    height: 200px;
+    float: right;
+    margin-top: 220px;
+    display: inline-block;
+
+}
+    
+.softice figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
