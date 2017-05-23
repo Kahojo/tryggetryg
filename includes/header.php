@@ -18,6 +18,8 @@
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+  
+
     
     
 <!-- Indkøbskurvs Modal -->
@@ -28,10 +30,29 @@
     <div class="modal-content">
         <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title"></h4>
+                <h4 class="modal-title">Din Indkøbskurv</h4>
         </div>
                 <div class="modal-body">
-                    <p>ord ord ord ord ord</p>
+                     <div class="table-responsive">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th>Vare nr.</th>
+                            <th>Varens Navn</th>
+                            <th>Antal</th>
+                            <th>Pris</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>id:5879</td>
+                            <td>Flagstang</td>
+                            <td>3</td>
+                            <td>35 DKK</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      </div>
                 </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Luk</button>

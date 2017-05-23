@@ -19,12 +19,14 @@ catch(PDOException $e)
     echo "Connection failed: " . $e->getMessage();
     }
  
+ 
 $stmt = $conn->prepare("SELECT * FROM categories");
 $stmt->execute();
 //var_dump($stmt);
 $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
 //var_dump($results);
 ?>
+
 
 <!-- Kategorier -->
 <div class="container" id="produkter">
@@ -37,16 +39,15 @@ $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <div class="thumbnail">
                     <img class="group list-group-image" src="images/kategorier/<?php echo $result["img"]; ?>">
                     <div class="caption">
-                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"><?php echo $result["name"]; ?></button>
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalprod"><?php echo $result["name"]; ?></button>
                             
                         
                     </div>
                 </div>
             </div>    
-       
 
 <!-- Modal -->
-<div id="myModal" class="modal fade" role="dialog">
+<div id="myModalprod" class="modal fade" role="dialog">
   <div class="modal-dialog">
 
     <!-- Modal Indhold-->
@@ -56,7 +57,7 @@ $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <h4 class="modal-title"><?php echo $result["name"]; ?></h4>
       </div>
       <div class="modal-body">
-        <p>ord ord ord ord ord</p>
+        <p></p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Luk</button>

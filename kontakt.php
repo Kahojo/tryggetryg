@@ -42,7 +42,7 @@
             </div>
             <div class="col-md-4">
                 <p>
-                    <strong><i class="fa fa-map-marker"></i> Adresse:</strong><br> Klepgabsvej 14, borridsø 8881 Thorsø
+                    <strong><i class="fa fa-map-marker"></i> Adresse:</strong><br> Klepgabsvej 14, borridsø  <br>  8881 Thorsø
                 </p>
                 <p><strong><i class="fa fa-phone"></i> Telefon Nummer:</strong><br>26 49 30 88
                 </p>
