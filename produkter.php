@@ -1,7 +1,7 @@
 <!-- Inkludering af header -->
 <?php include 'includes/header.php' ?>
 
-<!-- Etablering af forbindelse til database -->
+<!-- Etablering af forbindelse til database til kategori oversigt -->
 <?php
 $servername = "localhost";
 $username = "root";
