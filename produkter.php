@@ -28,48 +28,50 @@ $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
 
-<!-- Kategorier -->
-<div class="container" id="produkter">
-<?php
+    <!-- Kategorier -->
+    <div class="container" id="produkter">
+        <?php
     foreach ($results as $result) { ?>
-    <div id="categories-list" >
+            <div id="categories-list">
 
-        
-            <div class="item  col-xs-8 col-lg-4">
-                <div class="thumbnail">
-                    <img class="group list-group-image" src="images/kategorier/<?php echo $result["img"]; ?>">
-                    <div class="caption">
-                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalprod"><?php echo $result["name"]; ?></button>
-                            
-                        
+
+                <div class="item  col-xs-8 col-lg-4">
+                    <div class="thumbnail">
+                        <img class="group list-group-image" src="images/kategorier/<?php echo $result[" img "]; ?>">
+                        <div class="caption">
+                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalprod"><?php echo $result["name"]; ?></button>
+
+
+                        </div>
                     </div>
                 </div>
-            </div>    
 
-<!-- Modal -->
-<div id="myModalprod" class="modal fade" role="dialog">
-  <div class="modal-dialog">
+                <!-- Modal -->
+                <div id="myModalprod" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
 
-    <!-- Modal Indhold-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title"><?php echo $result["name"]; ?></h4>
-      </div>
-      <div class="modal-body">
-        <p></p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Luk</button>
-      </div>
+                        <!-- Modal Indhold-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">
+                                    <?php echo $result["name"]; ?>
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                <p></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Luk</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
     </div>
-
-  </div>
-</div>
-</div>
-
-  <?php
+    <?php
 } ?>
 
 
-<?php include 'includes/footer.php' ?>
+        <?php include 'includes/footer.php' ?>

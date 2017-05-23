@@ -5,24 +5,30 @@
     <!-- Wrapper til slides -->
     <div class="carousel-inner">
         <div class="item active">
-            <img src="images/slider/1.jpg" alt="...">
+            <img src="images/slider/1.jpg" alt="Borddækning i billedekarrusel">
             <div class="carousel-caption">
-                <a href="rejse.php"><h3>Klik her for at begynde din bestillingsrejse!    <i class="fa fa-arrow-right" aria-hidden="true"></i>
-</h3></a>
+                <a href="rejse.php">
+                    <h3>Klik her for at begynde din bestillingsrejse! <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </h3>
+                </a>
             </div>
         </div>
         <div class="item">
-            <img src="images/slider/%C2%A82.jpg" alt="...">
+            <img src="images/slider/2.jpg" alt="Borddækning i billedekarrusel">
             <div class="carousel-caption">
-                        <a href="rejse.php"><h3>Klik her for at begynde din bestillingsrejse!    <i class="fa fa-arrow-right" aria-hidden="true"></i>
-</h3></a>
+                <a href="rejse.php">
+                    <h3>Klik her for at begynde din bestillingsrejse! <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </h3>
+                </a>
             </div>
         </div>
         <div class="item">
-            <img src="images/slider/3.jpg" alt="...">
+            <img src="images/slider/3.jpg" alt="Borddækning i billedekarrusel">
             <div class="carousel-caption">
-                        <a href="rejse.php"><h3>Klik her for at begynde din bestillingsrejse!    <i class="fa fa-arrow-right" aria-hidden="true"></i>
-</h3></a>
+                <a href="rejse.php">
+                    <h3>Klik her for at begynde din bestillingsrejse! <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </h3>
+                </a>
             </div>
         </div>
     </div>
