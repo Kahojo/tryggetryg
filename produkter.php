@@ -35,9 +35,9 @@ $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <div id="categories-list">
 
 
-                <div class="item  col-xs-8 col-lg-4">
+                <div class="item col-xs-8 col-lg-4">
                     <div class="thumbnail">
-                        <img class="group list-group-image" src="images/kategorier/<?php echo $result[" img "]; ?>">
+                        <img class="group list-group-image" src="images/kategorier/<?php echo $result["img"]; ?>">
                         <div class="caption">
                             <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalprod"><?php echo $result["name"]; ?></button>
 
@@ -69,9 +69,9 @@ $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     </div>
                 </div>
             </div>
-    </div>
     <?php
 } ?>
 
+    </div>
 
         <?php include 'includes/footer.php' ?>
