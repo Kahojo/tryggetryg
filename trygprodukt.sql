@@ -39,16 +39,16 @@ CREATE TABLE `categories` (
 INSERT INTO `categories` (`id`, `name`, `img`) VALUES
 (1, 'Bestik', 'Bestik.jpg'),
 (2, 'Tallerkener', 'Tallerkner.jpg'),
-(3, 'Glas, krus og kopper', 'Glas_krus_og_kopper.jpg'),
+(3, 'Glas, krus og kopper', 'Glas.jpg'),
 (4, 'Kander', 'Kander.jpg'),
-(5, 'Fade og skåle', 'Fade_og_skåle.jpg'),
+(5, 'Fade og skåle', 'Fade.jpg'),
 (6, 'Diverse', 'Diverse.jpg'),
 (7, 'Vaser', 'Vaser.jpg'),
 (8, 'Borde og stole', 'bordestole.jpg'),
-(9, 'Diverse bar', 'bordestole.jpg'),
+(9, 'Diverse bar', 'Diverse_bar.jpg'),
 (10, 'Diverse snacks', 'Diverse_Snacks.jpg'),
 (11, 'Drikkevarer', 'Drikkevarer.jpg'),
-(12, 'Lyd, lys og røg', 'Lyd_lys_og_røg.jpg');
+(12, 'Lyd, lys og røg', 'roeg.jpg');
 
 -- --------------------------------------------------------
 
