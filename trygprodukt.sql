@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Vært: 127.0.0.1
--- Genereringstid: 23. 05 2017 kl. 09:34:22
+-- Genereringstid: 23. 05 2017 kl. 10:45:48
 -- Serverversion: 10.1.21-MariaDB
 -- PHP-version: 5.6.30
 
@@ -248,6 +248,13 @@ CREATE TABLE `items_belongto_order` (
   `order_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Data dump for tabellen `items_belongto_order`
+--
+
+INSERT INTO `items_belongto_order` (`item_id`, `order_id`) VALUES
+(9, 1);
+
 -- --------------------------------------------------------
 
 --
@@ -261,6 +268,14 @@ CREATE TABLE `order` (
   `order_number` int(11) NOT NULL,
   `quantity` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Data dump for tabellen `order`
+--
+
+INSERT INTO `order` (`id`, `price`, `status`, `order_number`, `quantity`) VALUES
+(1, '100.00', 'Udført', 0, 5),
+(2, '100.00', 'Udført', 555, 5);
 
 --
 -- Begrænsninger for dumpede tabeller
@@ -277,6 +292,13 @@ ALTER TABLE `categories`
 --
 ALTER TABLE `items`
   ADD PRIMARY KEY (`id`);
+
+--
+-- Indeks for tabel `items_belongto_order`
+--
+ALTER TABLE `items_belongto_order`
+  ADD KEY `item_id` (`item_id`),
+  ADD KEY `order_id` (`order_id`);
 
 --
 -- Indeks for tabel `order`
@@ -302,7 +324,18 @@ ALTER TABLE `items`
 -- Tilføj AUTO_INCREMENT i tabel `order`
 --
 ALTER TABLE `order`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+--
+-- Begrænsninger for dumpede tabeller
+--
+
+--
+-- Begrænsninger for tabel `items_belongto_order`
+--
+ALTER TABLE `items_belongto_order`
+  ADD CONSTRAINT `items_belongto_order_ibfk_1` FOREIGN KEY (`item_id`) REFERENCES `items` (`id`) ON UPDATE CASCADE,
+  ADD CONSTRAINT `items_belongto_order_ibfk_2` FOREIGN KEY (`order_id`) REFERENCES `order` (`id`) ON UPDATE CASCADE;
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
