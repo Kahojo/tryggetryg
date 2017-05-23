@@ -23,22 +23,99 @@
      
         <div class="popcorn">
 			<figure>
-                <img src="images/popcorn.png" />
+                <a href="#" data-toggle="modal" data-target="#myModalpop"> <img src="images/popcorn.png" /> </a>
             </figure>
 		</div>
     
 		<div class="slush">
 			<figure>
-                <img src="images/slushice.png" />
+                <a href="#" data-toggle="modal" data-target="#myModalslush"> <img src="images/slushice.png" /> </a>
             </figure>
 		</div>
-    
+     
 		<div class="softice">
 			<figure>
-                <img src="images/softice.png" />
+                <a href="#" data-toggle="modal" data-target="#myModalsoft"><img src="images/softice.png" /> </a>
             </figure>
 		</div>
 </div>
+        
+<div id="myModalpop" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal Indhold-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Popcornmaskine</h4>
+      </div>
+      <div class="modal-body">
+          <p>Festen der aldrig stopper?</p>
+          <p>Det er over midnat, og festen er stadig igang. </p>
+              <p>Den perfekte aftensnack: Lækre, saltede, varme popcorn.</p>
+          <p>Pris: xxx kr for en hel weekend plus forbrug</p>
+      </div>
+      <div class="modal-footer">
+          
+        <button type="button" class="btn btn-default" data-dismiss="modal">Luk</button>
+      </div>
+    </div>        
+    </div>
+        </div>
+<div id="myModalslush" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal Indhold-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Softicemaskine</h4>
+      </div>
+      <div class="modal-body">
+          <p>Sommeren er lige om hjørnet, og varmen trænger sig på.</p>
+          <p>Gør din sommerfest lidt mere lækker, med en slushicemaskine.</p>
+          <p>Pris: xxx kr for en hel weekend plus forbrug</p>
+      </div>
+      <div class="modal-footer">
+          
+        <button type="button" class="btn btn-default" data-dismiss="modal">Luk</button>
+      </div>
+    </div>
+
+  </div>
+</div>        
+<div id="myModalsoft" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal Indhold-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Softicemaskine</h4>
+      </div>
+      <div class="modal-body">
+          <p>Sommeren er lige om hjørnet, og varmen trænger sig på.</p>
+          <p>Gør din sommerfest lidt mere lækker, med en softicemaskine.</p>
+          <p>Pris: 800 kr for en hel weekend plus forbrug</p>
+      </div>
+      <div class="modal-footer">
+          
+        <button type="button" class="btn btn-default" data-dismiss="modal">Luk</button>
+      </div>
+    </div>
+
+  </div>
+</div>        
+        
+<div class="container2">
+  <div class="balloon">
+    <div>
+        <span class="rabat">10%</span>
+      </div>
+
+  </div>
+</div>
+
 
 <?php include 'includes/footer.php' ?>
         
